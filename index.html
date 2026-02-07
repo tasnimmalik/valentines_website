@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Straight From Tas's Heart</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="hearts" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="sparkles" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="starfield" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <main class="stage" aria-live="polite">
+      <button class="heartbeat-toggle" data-action="heartbeat" aria-pressed="false">Heartbeat Mode</button>
+      <section class="screen" data-screen="1" aria-label="Invitation">
+        <div class="content">
+          <div class="card-decor" aria-hidden="true"></div>
+          <div class="shine" aria-hidden="true"></div>
+          <p class="line big glow" data-delay="2000">Hey, my Sun! Thought to make you smile...</p>
+          <p class="line whisper" data-delay="4000">in an "IT GUY" way.</p>
+          <p class="line" data-delay="7000">So take a breath before you continue.</p>
+          <div class="button-row reveal" data-delay="9000">
+            <button class="primary" data-action="next">Tap when ready ❤️</button>
+            <button class="secondary" data-action="not-ready">I am not ready</button>
+          </div>
+          <div class="notice" id="not-ready-msg" aria-live="polite">
+            You are always ready for me, sweetheart! Try again.
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="2" aria-label="Memory">
+        <div class="content">
+          <div class="card-decor" aria-hidden="true"></div>
+          <div class="shine" aria-hidden="true"></div>
+          <p class="line" data-delay="0">I still remember when we first started talking to each other.</p>
+          <p class="line soft" data-delay="3000">Me and you at the very last bench speaking randomly about Potassium Permanganate percentages.</p>
+          <p class="line tag" data-delay="6000">LITTLE DID I KNOW...</p>
+          <p class="line glow" data-delay="9000">That "Roll no. 37" with square-framed glasses was my soulmate in every universe!</p>
+          <div class="photo-grid">
+            <div class="photo" data-delay="12000" role="img" aria-label="Our memory one"></div>
+            <div class="photo" data-delay="13500" role="img" aria-label="Our memory two"></div>
+          </div>
+          <p class="line" data-delay="15000">Seems like you getting in JCPSC was the universe introducing us to each other.</p>
+          <p class="line" data-delay="18000">Whatever happened afterwards JUST HAPPENED without us even realising.</p>
+          <div class="button-row reveal" data-delay="21000">
+            <button class="ghost" data-action="prev">← Previous</button>
+            <button class="secondary" data-action="next">Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="3" aria-label="Recognition">
+        <div class="content compact">
+          <div class="card-decor" aria-hidden="true"></div>
+          <div class="shine" aria-hidden="true"></div>
+          <p class="line" data-delay="0">Everything that you do makes me stare at you with eyes full of joy and heart full of love.</p>
+          <p class="line" data-delay="3000">The way you forget the world when you're around me.</p>
+          <p class="line" data-delay="6000">The way you smile and laugh in the most adorable way humanity has ever encountered so far..</p>
+          <p class="line glow" data-delay="9000">The way you look at me like I exist for you and only you.</p>
+          <p class="line" data-delay="12000">The way you take care of me like you've been my wifey for the past million light-years!</p>
+          <div class="button-row reveal" data-delay="15000">
+            <button class="ghost" data-action="prev">← Previous</button>
+            <button class="secondary" data-action="next">Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="4" aria-label="Recognition Two">
+        <div class="content compact">
+          <div class="card-decor" aria-hidden="true"></div>
+          <div class="shine" aria-hidden="true"></div>
+          <p class="line" data-delay="0">The way you get upset after being pranked and teased, but hug me tight the very next second.</p>
+          <p class="line" data-delay="3000">The way you get super-angry at me, and still find out the cutest way to apologise.</p>
+          <p class="line glow" data-delay="6000">The way you love me like nobody else loves their men!</p>
+          <p class="line big" data-delay="9000">You light up my world just by being YOU.</p>
+          <div class="button-row reveal" data-delay="12000">
+            <button class="ghost" data-action="prev">← Previous</button>
+            <button class="secondary" data-action="next">Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="5" aria-label="Vulnerability">
+        <div class="content">
+          <div class="card-decor" aria-hidden="true"></div>
+          <div class="shine" aria-hidden="true"></div>
+          <p class="line" data-delay="0">You've seen a version of me which was....</p>
+          <div class="video-box" data-delay="3000">
+            <video class="video" controls preload="metadata" poster="">
+              <source src="media/videos/Anupama_meme.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <p class="line" data-delay="7000">Maybe not that bad, but someone who was scared, unsure, underconfident, emotionally unstable, overthinker and many more.</p>
+          <p class="line glow" data-delay="11000">And yet, you chose to stay.</p>
+          <p class="line soft" data-delay="14000">Maybe you believed in me more than I did.</p>
+          <div class="button-row reveal" data-delay="17000">
+            <button class="ghost" data-action="prev">← Previous</button>
+            <button class="secondary" data-action="next">Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="6" aria-label="Vulnerability Two">
+        <div class="content compact">
+          <div class="card-decor" aria-hidden="true"></div>
+          <div class="shine" aria-hidden="true"></div>
+          <p class="line" data-delay="0">Even after becoming the best version of myself, you've seen me at my worst some days.</p>
+          <p class="line" data-delay="3000">Still, those pair of eyes looked at me with the same affection and amusement!</p>
+          <p class="line glow" data-delay="6000">That means more than you can ever imagine, princess!</p>
+          <p class="line" data-delay="9000">I am blessed to have you in my life.</p>
+          <p class="line soft" data-delay="12000">I am blessed every day that I get to love you.</p>
+          <div class="button-row reveal" data-delay="15000">
+            <button class="ghost" data-action="prev">← Previous</button>
+            <button class="secondary" data-action="next">Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="7" aria-label="Transition">
+        <div class="content">
+          <div class="card-decor" aria-hidden="true"></div>
+          <div class="shine" aria-hidden="true"></div>
+          <p class="line" data-delay="0">
+            It has been <span id="love-counter" class="counter" role="button" tabindex="0">0 years 0 months 0 days</span>
+            since we have exchanged our hearts.
+          </p>
+          <p class="line" data-delay="4000">Each and every day, we are getting a bit closer to each other.</p>
+          <p class="line" data-delay="8000">And somewhere along the way...</p>
+          <p class="line big glow" data-delay="11000">You have become my HOME!</p>
+          <div class="button-row reveal" data-delay="14000">
+            <button class="ghost" data-action="prev">← Previous</button>
+            <button class="secondary" data-action="next">Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="8" aria-label="Proposal">
+        <div class="content">
+          <div class="card-decor" aria-hidden="true"></div>
+          <div class="shine" aria-hidden="true"></div>
+          <p class="line big" data-delay="0">So, I want to ask you something.</p>
+          <p class="line big glow" data-delay="3000">Will you be mine forever? ❤️</p>
+          <div class="button-row reveal" data-delay="7000">
+            <button class="primary" data-action="final" id="yes-btn">YES ❤️</button>
+            <button class="secondary" data-action="no" id="no-btn">No</button>
+          </div>
+          <div class="notice" id="no-msg" aria-live="polite">Liar! Try again.</div>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="9" aria-label="Ending">
+        <div class="content">
+          <div class="card-decor" aria-hidden="true"></div>
+          <div class="shine" aria-hidden="true"></div>
+          <p class="line" data-delay="0">Yeaaay! I knew you would click on "YES"</p>
+          <p class="line whisper" data-delay="2000">(As if you had choice! Huh!)</p>
+          <p class="line" data-delay="4000">I would choose you again and again.</p>
+          <p class="line tag" data-delay="7000">IN EVERY LIFETIME.</p>
+          <p class="line" data-delay="10000">Starting with this one.</p>
+          <button class="ghost reveal" data-action="surprise" data-delay="12000">Open a tiny surprise ✨</button>
+          <div class="surprise" id="surprise-msg" aria-live="polite">
+            Even if I am dad to 2 kids, you will always be my favorite kid!
+          </div>
+          <canvas id="confetti" aria-hidden="true"></canvas>
+          <div class="button-row reveal" data-delay="14500">
+            <button class="ghost" data-action="prev">← Previous</button>
+            <button class="secondary" data-action="next">One more…</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="10" aria-label="Always">
+        <div class="content">
+          <div class="card-decor" aria-hidden="true"></div>
+          <div class="shine" aria-hidden="true"></div>
+          <p class="line big" data-delay="0">I am gonna keep this website hosted live…</p>
+          <p class="line" data-delay="4000">so that my love can come back here</p>
+          <p class="line soft" data-delay="8000">whenever she misses me.</p>
+          <div class="button-row reveal" data-delay="12000">
+            <button class="ghost" data-action="prev">← Previous</button>
+            <button class="secondary" data-action="next">Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="11" aria-label="Love">
+        <div class="content">
+          <div class="card-decor" aria-hidden="true"></div>
+          <div class="shine" aria-hidden="true"></div>
+          <p class="line love-banner" data-delay="0">I LOVE YOU!</p>
+          <p class="line" data-delay="3000">I know that you wanna tell me that</p>
+          <p class="line" data-delay="5500">You love me too.</p>
+          <p class="line soft" data-delay="8000">Well, you got my number, right?</p>
+          <p class="line whisper" data-delay="11000">The End</p>
+          <div class="button-row reveal" data-delay="13000">
+            <button class="ghost" data-action="prev">← Previous</button>
+            <button class="ghost" data-action="replay">Replay</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
